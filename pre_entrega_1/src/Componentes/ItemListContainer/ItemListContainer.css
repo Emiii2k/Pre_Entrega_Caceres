@@ -1,0 +1,22 @@
+.button-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+}
+
+.button-add{
+    height: 40px;
+    border: none;
+    border-radius: 60px;
+    background: #222831;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 32px;
+    color: #EEEEEE;
+}
+
+.button-add:hover{
+    background: #00ADB5;
+}

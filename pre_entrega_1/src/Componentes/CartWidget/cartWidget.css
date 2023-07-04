@@ -1,0 +1,28 @@
+.container-icon {
+	position: relative;
+}
+
+.count-products {
+	position: absolute;
+	top: 50%;
+	right: 10px;
+
+	background-color: #222831;
+	color: #EEEEEE;
+	width: 20px;
+	height: 20px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+}
+
+#contador-productos {
+	font-size: 12px;
+}
+
+.img{
+  height: 35px;
+  padding: 16px 12px;
+}

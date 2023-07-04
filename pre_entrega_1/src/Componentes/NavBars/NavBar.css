@@ -1,0 +1,24 @@
+.App {
+  background-color: #00ADB5;
+  height: 56px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  align-content: center;
+  font-size: 16px;
+}
+
+.nav-log{
+  height: 32px;
+}
+
+.nav-link{
+  text-decoration: none;
+  color: #EEEEEE;
+  padding: 16px 5px;
+}
+
+.nav-link:hover{
+  color: #393E46;
+}
