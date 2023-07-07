@@ -7,7 +7,7 @@ function  CartWidget() {
     <>
       <div className='container-icon'>
 				<div className='container-cart-icon'>
-					<img class='img' src={cart} alt="" />
+					<img className='img' src={cart} alt="" />
 					<div className='count-products'>
 						<span id='contador-productos'>0</span>
 					</div>
