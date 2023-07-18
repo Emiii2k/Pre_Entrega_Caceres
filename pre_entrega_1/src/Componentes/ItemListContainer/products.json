@@ -1,0 +1,94 @@
+{
+"productos":[
+    {
+        "id": "mesa-01",
+        "titulo": "Mesa Mix",
+        "imagen": "./Products/01.jpg",
+        "categoria": {
+            "nombre": "mesas",
+            "id": "mesas"
+        },
+        "precio": 15000
+    },
+    {
+        "id": "mesa-02",
+        "titulo": "Mesa Redonda",
+        "imagen": "./img/mesas/02.jpeg",
+        "categoria": {
+            "nombre": "mesas",
+            "id": "mesas"
+        },
+        "precio": 10000
+    },
+    {
+        "id": "mesa-03",
+        "titulo": "Mesa Extensible Combinada",
+        "imagen": "./img/mesas/03.jpeg",
+        "categoria": {
+            "nombre": "mesas",
+            "id": "mesas"
+        },
+        "precio": 20000
+    },
+    {
+        "id": "muebles-01",
+        "titulo": "Sillon de Living",
+        "imagen": "./img/muebles/01.jpg",
+        "categoria": {
+            "nombre": "muebles",
+            "id": "muebles"
+        },
+        "precio": 25000
+    },
+    {
+        "id": "muebles-02",
+        "titulo": "Rack TV",
+        "imagen": "./img/muebles/02.jpeg",
+        "categoria": {
+            "nombre": "muebles",
+            "id": "muebles"
+        },
+        "precio": 35000
+    },
+    {
+        "id": "muebles-03",
+        "titulo": "Estanteria",
+        "imagen": "./img/muebles/03.jpeg",
+        "categoria": {
+            "nombre": "muebles",
+            "id": "muebles"
+        },
+        "precio": 15000
+    },
+    {
+        "id": "sillas-01",
+        "titulo": "Silla Moderna",
+        "imagen": "./img/sillas/01.jpg",
+        "categoria": {
+            "nombre": "sillas",
+            "id": "sillas"
+        },
+        "precio": 25000
+    },
+    {
+        "id": "sillas-02",
+        "titulo": "Silla c/ Tapizado de Ecocuero",
+        "imagen": "./img/sillas/02.jpg",
+        "categoria": {
+            "nombre": "sillas",
+            "id": "sillas"
+        },
+        "precio": 9000
+    },
+    {
+        "id": "sillas-03",
+        "titulo": "Silla c/ Tapizado Moderno",
+        "imagen": "./img/sillas/03.jpg",
+        "categoria": {
+            "nombre": "sillas",
+            "id": "sillas"
+        },
+        "precio": 12500
+    }
+]
+}

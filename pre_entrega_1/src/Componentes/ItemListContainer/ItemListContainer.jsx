@@ -1,15 +1,12 @@
-import React from 'react';
 import './ItemListContainer.css'
+import './products.json'
 
-const ItemListContainer = ({greeting}) => {
+function ItemListContainer() {
   return (
-    <>
-      <div className='button-main'>
-        <button className='button-add'>{greeting}</button>
-      </div>
-    </>
+    <div className='button-main'>
+      <button className='button-add'>Proximamente</button>
+    </div>
   )
 }
+
 export default ItemListContainer
-
-
