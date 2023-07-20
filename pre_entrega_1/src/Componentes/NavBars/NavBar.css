@@ -22,3 +22,9 @@
 .nav-link:hover{
   color: #393E46;
 }
+
+@media screen and (max-width: 800px) {
+  .App {
+    height: auto;
+  }
+}
