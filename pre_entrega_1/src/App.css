@@ -1,8 +1,8 @@
 body {
-  height: 100vh;
-  width: 100vw;
-  background-color: var(--dark-color-lighten);
+  background: #001C30;
+  color: #DAFFFB;
   font-family: "Montserrat", sans-serif;
+  min-height: 100vh;
 }
 
 @media screen and (max-width: 800px) {

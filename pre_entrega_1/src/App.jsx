@@ -1,4 +1,3 @@
-import './App.css'
 import NavBar from './Componentes/NavBars/NavBar'
 import ItemListContainer from './Componentes/ItemListContainer/ItemListContainer'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
@@ -7,6 +6,7 @@ import ItemDetailContainer from './Componentes/ItemDetailContainer/ItemDetailCon
 
 function App() {
     return (
+        <div className='container'>
         <BrowserRouter>
             <NavBar/>
             <Routes>
@@ -16,7 +16,7 @@ function App() {
                 <Route path='/cart/' element={<CartWidget />} />
             </Routes>
         </BrowserRouter>
-        
+        </div>
     )
 }
 export default App
